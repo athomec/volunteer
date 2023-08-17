@@ -1,0 +1,6 @@
+<svg id="ic-checked" xmlns="http://www.w3.org/2000/svg" width="24.062" height="24.062" viewBox="0 0 24.062 24.062">
+  <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="12.031" cy="12.031" rx="12.031" ry="12.031" transform="translate(0 0)" fill="#32ba7c"/>
+  <g id="Group_54" data-name="Group 54" transform="translate(4.71 6.644)">
+    <path id="Union_2" data-name="Union 2" d="M4.878,11.086.372,6.545a1.329,1.329,0,0,1,0-1.845L1.4,3.672a1.328,1.328,0,0,1,1.844,0L5.794,6.24,11.689.372a1.329,1.329,0,0,1,1.845,0L14.562,1.4a1.328,1.328,0,0,1,0,1.844L7.9,9.879a1.231,1.231,0,0,1-.148.179L6.722,11.086a1.328,1.328,0,0,1-1.844,0Z" transform="translate(0)" fill="#fff" stroke="#32ba7c" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ic-reset" transform="translate(-569 491)">
+    <path id="refresh-arrow" d="M15.67,5.983A6.633,6.633,0,0,0,11.5,4.357a7.143,7.143,0,1,0,6.728,9.548,1.062,1.062,0,0,1,1.191-.718l.932.2a.885.885,0,0,1,.69,1.118A10,10,0,1,1,11.5,1.5a9.6,9.6,0,0,1,6.2,2.452l1.7-1.7a.952.952,0,0,1,1.626.673V8.167a.952.952,0,0,1-.952.952H14.833a.952.952,0,0,1-.673-1.626Z" transform="translate(567.5 -492.5)" fill="#5cd0e7"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="20" height="20" transform="translate(569 -491)" fill="none"/>
+  </g>
+</svg>

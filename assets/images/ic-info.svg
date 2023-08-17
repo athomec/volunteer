@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <g id="ic-info" transform="translate(-1048 249)">
+    <g id="add-document" transform="translate(1050 -250)">
+      <path id="Path_602" data-name="Path 602" d="M32.106,11.577v26.9A2.729,2.729,0,0,1,29.377,41.2H5.729A2.729,2.729,0,0,1,3,38.473V4.819A1.819,1.819,0,0,1,4.819,3H23.1a1.819,1.819,0,0,1,1.246.491l7.186,6.785a1.819,1.819,0,0,1,.573,1.3Z" transform="translate(0 0)" fill="#468ff1"/>
+      <path id="Path_603" data-name="Path 603" d="M32.106,11.577V35.744a2.729,2.729,0,0,1-2.729,2.729H5.729A2.729,2.729,0,0,1,3,35.744V4.819A1.819,1.819,0,0,1,4.819,3H23.1a1.819,1.819,0,0,1,1.246.491l7.186,6.785a1.819,1.819,0,0,1,.573,1.3Z" transform="translate(0 0)" fill="#81aae8"/>
+      <path id="Path_604" data-name="Path 604" d="M34.005,11.577V12.1H25.819A1.819,1.819,0,0,1,24,10.277V3h1a1.819,1.819,0,0,1,1.246.491l7.186,6.785a1.819,1.819,0,0,1,.573,1.3Z" transform="translate(-1.899 0)" fill="#468ff1"/>
+      <g id="Group_53" data-name="Group 53" transform="translate(8.457 8.457)">
+        <path id="Path_605" data-name="Path 605" d="M26.282,34.819H9.91A.91.91,0,0,1,9.91,33H26.282a.91.91,0,0,1,0,1.819Z" transform="translate(-9 -11.17)" fill="#f9f6f6"/>
+        <path id="Path_606" data-name="Path 606" d="M26.282,28.819H9.91A.91.91,0,0,1,9.91,27H26.282a.91.91,0,0,1,0,1.819Z" transform="translate(-9 -10.628)" fill="#f9f6f6"/>
+        <path id="Path_607" data-name="Path 607" d="M26.282,22.819H9.91A.91.91,0,0,1,9.91,21H26.282a.91.91,0,0,1,0,1.819Z" transform="translate(-9 -10.085)" fill="#f9f6f6"/>
+        <path id="Path_608" data-name="Path 608" d="M19.915,16.819H9.91A.91.91,0,0,1,9.91,15H19.915a.91.91,0,0,1,0,1.819Z" transform="translate(-9 -9.543)" fill="#f9f6f6"/>
+        <path id="Path_609" data-name="Path 609" d="M15.367,10.819H9.91A.91.91,0,0,1,9.91,9h5.457a.91.91,0,1,1,0,1.819Z" transform="translate(-9 -9)" fill="#f9f6f6"/>
+      </g>
+    </g>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="41" height="41" transform="translate(1048 -249)" fill="none"/>
+  </g>
+</svg>

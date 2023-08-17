@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ic-volumn" transform="translate(-602 491)">
+    <g id="sound_medium" transform="translate(600 -493)">
+      <g id="Group_52" data-name="Group 52">
+        <g id="Group_49" data-name="Group 49">
+          <path id="Path_596" data-name="Path 596" d="M18.36,19.36a1,1,0,0,1-.7-1.71,7.979,7.979,0,0,0,0-11.3,1,1,0,0,1,1.41-1.419,9.98,9.98,0,0,1,0,14.138,1,1,0,0,1-.7.291Z" fill="#90bae1"/>
+        </g>
+        <g id="Group_50" data-name="Group 50">
+          <path id="Path_597" data-name="Path 597" d="M15.53,16.53a1,1,0,0,1-.7-1.711,3.974,3.974,0,0,0,0-5.638,1,1,0,1,1,1.406-1.422,5.973,5.973,0,0,1,0,8.482A1,1,0,0,1,15.53,16.53Z" fill="#90bae1"/>
+        </g>
+        <g id="Group_51" data-name="Group 51">
+          <path id="Path_598" data-name="Path 598" d="M12,22a1,1,0,0,1-.707-.293L6.586,17H4a2,2,0,0,1-2-2V9A2,2,0,0,1,4,7H6.586l4.707-4.707A1,1,0,0,1,13,3V21a1,1,0,0,1-1,1Z" fill="#90bae1"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="20" height="20" transform="translate(602 -491)" fill="none"/>
+  </g>
+</svg>

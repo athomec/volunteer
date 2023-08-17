@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ic-home" transform="translate(-667 456)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="12" cy="12" r="12" transform="translate(667 -456)" fill="#333"/>
+    <path id="home_1_" data-name="home (1)" d="M11.677,5.219h0l-4.9-4.9a1.1,1.1,0,0,0-1.563,0L.326,5.216l0,.005A1.1,1.1,0,0,0,1.056,7.1l.034,0h.2v3.6A1.294,1.294,0,0,0,2.578,12H4.493a.352.352,0,0,0,.352-.352V8.824a.591.591,0,0,1,.59-.59h1.13a.591.591,0,0,1,.59.59v2.825A.352.352,0,0,0,7.506,12H9.422a1.294,1.294,0,0,0,1.293-1.293V7.1H10.9a1.1,1.1,0,0,0,.782-1.886Zm0,0" transform="translate(673 -449.999)" fill="#fff"/>
+  </g>
+</svg>

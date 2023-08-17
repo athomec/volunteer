@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.228" height="24" viewBox="0 0 24.228 24">
+  <g id="ic-download" transform="translate(0.393)">
+    <g id="a" transform="translate(0 0.83)">
+      <path id="Path_617" data-name="Path 617" d="M25.191,28.288,23.137,25H5.055L3,28.288Z" transform="translate(-2.178 -16.37)" fill="#f29c1f"/>
+      <path id="Path_618" data-name="Path 618" d="M8,22.642V8.822A.824.824,0,0,1,8.822,8H25.26a.824.824,0,0,1,.822.822v13.82Z" transform="translate(-5.123 -6.356)" fill="#ecf0f1"/>
+      <path id="Path_619" data-name="Path 619" d="M10.822,4H25.616a.822.822,0,0,1,.822.822v.822H10V4.822A.822.822,0,0,1,10.822,4Z" transform="translate(-6.301 -4)" fill="#d1d4d1"/>
+      <path id="Path_620" data-name="Path 620" d="M24.835,33.822v8.219a1.644,1.644,0,0,1-1.644,1.644H2.644A1.644,1.644,0,0,1,1,42.041V33.822A.822.822,0,0,1,1.822,33H5.644a1.232,1.232,0,0,1,1.057.6L7.97,35.713a2.877,2.877,0,0,0,2.467,1.4H15.4a2.876,2.876,0,0,0,2.467-1.4L19.133,33.6A1.233,1.233,0,0,1,20.19,33h3.822a.822.822,0,0,1,.822.822Z" transform="translate(-1 -21.082)" fill="#f0c419"/>
+      <path id="Path_621" data-name="Path 621" d="M27.36,17.931H26.249v-4.11A.822.822,0,0,0,25.428,13H22.962a.822.822,0,0,0-.822.822v4.11H21.029a.883.883,0,0,0-.624,1.507L23.57,22.6a.883.883,0,0,0,1.248,0l3.166-3.166A.883.883,0,0,0,27.36,17.931Z" transform="translate(-12.277 -9.301)" fill="#4fba6f"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="14" height="4" rx="2" transform="translate(4.607 17.17)" fill="#f9eab0"/>
+    </g>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="24" height="24" transform="translate(-0.393)" fill="none"/>
+  </g>
+</svg>
