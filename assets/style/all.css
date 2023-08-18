@@ -22972,7 +22972,8 @@ body {
   -webkit-box-shadow: 0 0 8px #ced4da;
           box-shadow: 0 0 8px #ced4da;
   border-radius: 12px;
-  pointer-events: none; }
+  pointer-events: none;
+  padding: 8px 0 16px 0; }
   @media (max-width: 1200px) {
     .calendar {
       width: 320px;
