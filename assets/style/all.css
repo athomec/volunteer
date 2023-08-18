@@ -22681,7 +22681,10 @@ body {
   color: #495057;
   -webkit-box-align: start;
       -ms-flex-align: start;
-          align-items: flex-start; }
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 1.4; }
   .sub-title img {
     width: 24px; }
 
