@@ -693,388 +693,95 @@
 						
 <!--內容區塊開始-->
 <main class="content">
-    <h3 class="main-title mb-3">會員資料</h3>
-    <ul class="page-tab nav nav-pills p-2 mb-3 scrollbar flex-nowrap" id="pills-tab" role="tablist">
-        <li role="presentation">
-            <button class="page-tab-btn nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-home" type="button" role="tab">基本資料</button>
-        </li>
-        <li role="presentation">
-            <button class="page-tab-btn nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-profile" type="button" role="tab" onclick="window.location.href='member1.html'">學經歷</button>
-        </li>
-        <li role="presentation">
-            <button class="page-tab-btn nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-contact" type="button" role="tab">自傳</button>
-        </li>
-        <li role="presentation">
-            <button class="page-tab-btn nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-contact" type="button" role="tab">應徵紀錄</button>
-        </li>
-        <li role="presentation">
-            <button class="page-tab-btn nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                data-bs-target="#pills-contact" type="button" role="tab">變更密碼</button>
-        </li>
-    </ul>
+    <h3 class="main-title mb-3">最新消息</h3>
     <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" tabindex="0">
-            <p class="text-danger fs-7 mb-4">敬請提供完整中英文資料以提供本會及海外合作單位參考</p>
             <h4 class="sub-title mb-3">
-                <img src="./assets/images/ic-info.svg" class="me-1">基本資料
-                <button class="btn btn-sm btn-special-dark ms-auto">儲存本頁資料</button>
+                <img src="./assets/images/ic-info.svg" class="me-1">線上報名-國合會112年度「海外服務工作團」第二梯次長期海外志工(新增聖文森數學教育輔助訓練志工)
             </h4>
-            <div class="id-card mb-3 rounded p-4">
-                <div class="id-card-img"><img src="./assets/images/demo-p2.jpg"></div>
-                <div class="ps-sm-4">
-                    <p class="card-text">
-                        <label for="formFile" class="form-label fs-7">上傳照片<span class="text-danger">(必要)</span></label>
-                    <div class="input-group input-group-sm mb-3">
-                        <input type="file" class="form-control" id="formFile">
-                    </div>
-                    </p>
-                    <p class="card-text">
-                        <small class="text-body-secondary fs-8">
-                            說明：<br>
-                            <ul>
-                                <li>照片最適大小為寬110*高140像素，若照片尺寸過大，系統會進行壓縮處理。</li>
-                                <li>為節省您上傳等待時間，建議檔案大小請勿超過150K。</li>
-                            </ul>
-                        </small>
-                    </p>
-                </div>
-            </div>
-            <div class="form-container mb-5">
-                <div class="form-group">
-                    <label for="name-ch" class="form-label">中文姓名<span class="text-danger">(必要)</span></label>
-                    <input type="text" class="form-control form-control-sm" id="name-ch" value="洪敏貴">
-                </div>
-                <div class="form-group align-items-start">
-                    <label for="name-en" class="form-label mt-1">英文姓名<span class="text-danger">(必要)</span></label>
-                    <div>
-                        <div class="d-flex flex-wrap align-items-center mb-2">
-                            <p class="me-2">First Name</p>
-                            <input type="text" class="form-control form-control-sm me-2" id="name-en" value="MIN-KUEI">
-                            <p>範例：Han-Ming。</p>
-                        </div>
-                        <div class="d-flex flex-wrap align-items-center mb-2">
-                            <p class="me-2">Last Name</p>
-                            <input type="text" class="form-control form-control-sm me-2" id="name-en" value="HUNG">
-                            <p>範例：Wang。</p>
-                        </div>
-                        <span class="text-danger">請與護照相同</span>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label for="name-en" class="form-label">出生日期<span class="text-danger">(必要)</span></label>
-                    <div class="input-group date me-2" id="date" data-target-input="nearest">
-                        <input type="text" class="form-control form-control-sm datetimepicker-input border-end-0"
-                            data-target="#date" />
-                        <div class="input-group-append" data-target="#date" data-toggle="datetimepicker">
-                            <div class="input-group-text"><img src="./assets/images/ic-calendar.svg">
-                            </div>
-                        </div>
-                    </div>
-                    <p>範例1985/01/01</p>
-                </div>
-                <div class="form-group">
-                    <label for="id" class="form-label">身分證號<span class="text-danger">(必要)</span></label>
-                    <input type="text" class="form-control form-control-sm" id="id" value="r222710584">
-                </div>
-                <div class="form-group">
-                    <p class="form-label">性別<span class="text-danger">(必要)</span></p>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="gender" id="male" value="option1">
-                        <label class="form-check-label" for="male">男</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="gender" id="female" value="option2">
-                        <label class="form-check-label" for="female">女</label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <p class="form-label">婚姻狀況<span class="text-danger">(必要)</span></p>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="marry" id="married" value="option1">
-                        <label class="form-check-label" for="married">已婚</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="marry" id="single" value="option2">
-                        <label class="form-check-label" for="single">未婚</label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <p class="form-label">兵役<span class="text-danger">(必要)</span></p>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="military" id="military1" value="option1">
-                        <label class="form-check-label" for="military1">未役</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="military" id="military2" value="option2">
-                        <label class="form-check-label" for="military2">已役</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="military" id="military3" value="option3">
-                        <label class="form-check-label" for="military3">免役</label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="height" class="form-label">身高<span class="text-danger">(必要)</span></label>
-                    <input type="number" class="form-control form-control-sm me-2" id="height" value="167">
-                    <p>公分</p>
-                </div>
-                <div class="form-group">
-                    <label for="height" class="form-label">體重<span class="text-danger">(必要)</span></label>
-                    <input type="number" class="form-control form-control-sm me-2" id="height" value="90">
-                    <p>公斤</p>
-                </div>
-                <hr>
-                <div class="form-group">
-                    <label for="add" class="form-label">戶籍地址<span class="text-danger">(必要)</span></label>
-                    <input type="text" class="form-control form-control-sm me-2 mb-2 mb-md-0" id="add"
-                        value="新北市土城區福祥街54巷3號1樓" style="max-width: 100%">
-                    <span class="text-danger flex-shrink-0">最多 300 字</span>
-                </div>
-                <div class="form-group">
-                    <label for="postal-add" class="form-label">通訊地址<span class="text-danger">(必要)</span></label>
-                    <div class="form-check form-check-inline flex-shrink-0">
-                        <input class="form-check-input" type="checkbox" id="same-add" value="option1" checked>
-                        <label class="form-check-label" for="same-add">同戶籍地址</label>
-                    </div>
-                    <input type="text" class="form-control form-control-sm me-2 mb-2 mb-md-0" id="postal-add"
-                        value="新北市土城區福祥街54巷3號1樓" disabled style="max-width: 100%">
-                    <span class="text-danger flex-shrink-0">最多 300 字</span>
-                </div>
-                <div class="form-group">
-                    <label for="tel" class="form-label">連絡電話<span class="text-danger">(必要)</span></label>
-                    <input type="text" class="form-control form-control-sm me-2" id="tel" value="0918634272">
-                    <span class="text-danger flex-shrink-0">最多 50 字</span>
-                </div>
-                <div class="form-group">
-                    <label for="mobile" class="form-label">行動電話<span class="text-danger">(必要)</span></label>
-                    <input type="text" class="form-control form-control-sm me-2" id="mobile" value="0918634272">
-                    <p class="me-2">範例 0936123456</p>
-                    <span class="text-danger flex-shrink-0">最多 50 字</span>
-                </div>
-                <div class="form-group align-items-start">
-                    <label for="mail" class="form-label mt-1">e-mail<span class="text-danger">(必要)</span></label>
-                    <div>
-                        <div class="d-flex flex-wrap align-items-center mb-2">
-                            <input type="text" class="form-control form-control-sm me-2" id="mail"
-                                value="queean@gmail.com">
-                            <p class="me-2 mt-1">請輸入正確 e-mail</p>
-                            <span class="text-danger flex-shrink-0 mt-1">最多 100 字</span>
-                        </div>
-                        <div class="form-check form-check-inline flex-shrink-0">
-                            <input class="form-check-input" type="checkbox" id="receiveMail" value="option1" checked>
-                            <label class="form-check-label" for="receiveMail">我願意接受到相關活動訊息</label>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="form-group align-items-start">
-                    <label for="emergency" class="form-label">緊急聯絡人(一)<span class="text-danger">(必要)</span></label>
-                    <div class="w-100">
-                        <div class="d-flex align-items-md-center flex-column flex-md-row mb-2">
-                            <input type="text" class="form-control form-control-sm me-2 mb-2 mb-md-0" id="emergency"
-                                value="洪敏綺">
-                            <label for="relation" class="form-label me-2">關係</span></label>
-                            <input type="text" class="form-control form-control-sm me-2" id="relation" value="姐姐">
-                        </div>
-                        <div class="d-flex align-items-md-center flex-column flex-md-row mb-2">
-                            <label for="relation-tel" class="form-label me-2" style="width:auto">連絡電話</span></label>
-                            <input type="text" class="form-control form-control-sm me-2 mb-2 mb-md-0" id="relation-tel"
-                                value="0222732201">
-                            <label for="relation-mobile" class="form-label me-2">行動電話</span></label>
-                            <input type="text" class="form-control form-control-sm me-2" id="relation-mobile"
-                                value="0222732201">
-                        </div>
-                        <div class="d-flex flex-wrap align-items-center">
-                            <label for="relation-add" class="form-label visually-hidden">通訊地址</label>
-                            <div class="form-check form-check-inline flex-shrink-0 mb-2">
-                                <input class="form-check-input" type="radio" name="emergency-add" id="residence-add"
-                                    value="option1" checked>
-                                <label class="form-check-label" for="residence-add">同戶籍地址</label>
-                            </div>
-                            <div class="form-check form-check-inline flex-shrink-0 mb-2">
-                                <input class="form-check-input" type="radio" name="emergency-add" id="mailing-add"
-                                    value="option2">
-                                <label class="form-check-label" for="mailing-add">同通訊地址</label>
-                            </div>
-                            <input type="text" class="form-control form-control-sm me-2" id="relation-add"
-                                value="新北市土城區福祥街54巷3號1樓" disabled style="max-width: 100%">
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group align-items-start">
-                    <label for="emergency1" class="form-label">緊急聯絡人(二)</label>
-                    <div class="w-100">
-                        <div class="d-flex align-items-md-center flex-column flex-md-row mb-2">
-                            <input type="text" class="form-control form-control-sm me-2 mb-2 mb-md-0" id="emergency1"
-                                value="洪靜美">
-                            <label for="relation1" class="form-label me-2">關係</span></label>
-                            <input type="text" class="form-control form-control-sm me-2" id="relation1" value="妹妹">
-                        </div>
-                        <div class="d-flex align-items-md-center flex-column flex-md-row mb-2">
-                            <label for="relation-tel1" class="form-label me-2" style="width:auto">連絡電話</span></label>
-                            <input type="text" class="form-control form-control-sm me-2 mb-2 mb-md-0" id="relation-tel1"
-                                value="0222732201">
-                            <label for="relation-mobile1" class="form-label me-2">行動電話</span></label>
-                            <input type="text" class="form-control form-control-sm me-2" id="relation-mobile1"
-                                value="0222732201">
-                        </div>
-                        <div class="d-flex flex-wrap align-items-center">
-                            <label for="relation-add1" class="form-label visually-hidden">通訊地址</label>
-                            <div class="form-check form-check-inline flex-shrink-0 mb-2">
-                                <input class="form-check-input" type="radio" name="emergency-add1" id="residence-add1"
-                                    value="option1" checked>
-                                <label class="form-check-label" for="residence-add1">同戶籍地址</label>
-                            </div>
-                            <div class="form-check form-check-inline flex-shrink-0 mb-2">
-                                <input class="form-check-input" type="radio" name="emergency-add1" id="mailing-add1"
-                                    value="option2">
-                                <label class="form-check-label" for="mailing-add1">同通訊地址</label>
-                            </div>
-                            <input type="text" class="form-control form-control-sm me-2" id="relation-add1"
-                                value="新北市土城區福祥街54巷3號1樓" disabled style="max-width: 100%">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h4 class="sub-title mb-3"><img src="./assets/images/ic-info.svg" class="me-1">附件
-                <span class="ms-2 fs-7 text-danger py-1">(本列表為必傳附件；若為免役或未役則免上傳退伍令)</span>
-            </h4>
+            <table class="table table-bordered table-hover table-rwd-horizan mb-4">
+                <tbody>
+                    <tr>
+                        <th>預定派遣期間</th>
+                        <td>2023/10/29 ~ 2024/10/28</td>
+                    </tr>
+                    <tr>
+                        <th>派遣類別</th>
+                        <td>
+                            長期
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>簡介</th>
+                        <td>
+                            財團法人國際合作發展基金會（國合會）海外服務工作團自民國85年開辦，派遣符合夥伴國家需求之志工遠赴45個國家服務，迄今累計841服務人次。</td>
+                    </tr>
+                    <tr>
+                        <th>工作內容</th>
+                        <td>視各志工招募需求而定，詳情請參考附件-​<a
+                                href="/ICDF_VOLUNTEERS/UploadFiles/Activity/b975c633-c1c4-40f4-a2b0-a0fcbc68bdac.pdf">國合會112年度「海外服務工作團」第二梯次長期志工招募報名簡章0621</a><br>
+                            本需求請詳報名簡章內編號25.聖文森數學教育輔助訓練志工需求。</td>
+                    </tr>
+                    <tr>
+                        <th>報名資格</th>
+                        <td>
+                            <ol>
+                                <li>具有中華民國國籍。</li>
+                                <li>年齡：年滿20歲，原則不超過65歲。</li>
+                                <li>學(經)歷：國內外大專畢業，或具5年(含)以上相關工作經驗（註：在學者於派遣前取得畢業證書即可，惟須提供在學證明)。</li>
+                                <li>男性須役畢或免役。</li>
+                                <li>其他專業及語言能力資格請詳參前述報名簡章。</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
 
             <table class="table table-bordered table-hover table-striped table-rwd mb-5">
                 <thead>
                     <tr>
+                        <th class="text-center" width="50">
+                        </th>
                         <th class="text-center" width="60">序號</th>
-                        <th>文件名稱</th>
-                        <th class="text-center" width="80">上傳檔案</th>
-                        <th class="text-center" width="80">下載預覽</th>
-                        <th>(檔案名稱長度限50個字元)</th>
-                        <th class="text-center" width="70">刪除</th>
+                        <th>國家地區</th>
+                        <th class="text-center">合作單位</th>
+                        <th class="text-center" width="80">服務類別</th>
+                        <th>項目說明</th>
+                        <th class="text-center" width="120">預定派遣人數</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
+                        <td class="text-center">
+                            <input class="form-check-input" type="checkbox" value="">
+                        </td>
                         <td data-th="序號" class="text-center">1</td>
-                        <td data-th="文件名稱">身分證正面<span class="fs-7 text-danger">(必要)</span></td>
-                        <td data-th="上傳檔案"><img src="./assets/images/ic-checked.svg" alt="已上傳" class="table-sign"></td>
-                        <td data-th="下載預覽" class="text-center">
-                            <a class="link-img" href="#">
-                                <img src="./assets/images/ic-download.svg" alt="下載">
-                            </a>
-                        </td>
-                        <td data-th="">
-                            <div class="table-group">
-                                <input class="form-control form-control-sm" id="chooseFile" type="file"
-                                    style="width: auto;">
-                                <label for="chooseFile" class="form-label text-danger fs-7 mb-0 ms-2 py-1">檔案大小不可超過
-                                    10M</label>
-                            </div>
-                        </td>
-                        <td class="text-center" data-th="">
-                            <button class="btn btn-sm btn-danger text-white">刪除</button>
-                        </td>
+                        <td data-th="國家地區">南美洲地區 /巴拉圭</td>
+                        <td data-th="合作單位">巴拉圭醫療資訊管理效能提升計畫(第二期)</td>
+                        <td data-th="服務類別"class="text-center">其他</td>
+                        <td data-th="其他">西班牙語</td>
+                        <td data-th="預定派遣人數" class="text-center">1</td>
                     </tr>
                     <tr>
+                        <td class="text-center">
+                            <input class="form-check-input" type="checkbox" value="">
+                        </td>
                         <td data-th="序號" class="text-center">2</td>
-                        <td data-th="文件名稱">身分證反面<span class="fs-7 text-danger">(必要)</span></td>
-                        <td data-th="上傳檔案"><img src="./assets/images/ic-checked.svg" alt="已上傳" class="table-sign"></td>
-                        <td data-th="下載預覽" class="text-center">
-                            <a class="link-img" href="#">
-                                <img src="./assets/images/ic-download.svg" alt="下載">
-                            </a>
-                        </td>
-                        <td data-th="">
-                            <div class="table-group">
-                                <input class="form-control form-control-sm" id="chooseFile" type="file"
-                                    style="width: auto;">
-                                <label for="chooseFile" class="form-label text-danger fs-7 mb-0 ms-2 py-1">檔案大小不可超過
-                                    10M</label>
-                            </div>
-                        </td>
-                        <td class="text-center" data-th="">
-                            <button class="btn btn-sm btn-danger text-white">刪除</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td data-th="序號" class="text-center">3</td>
-                        <td data-th="文件名稱">最高學歷畢業證書影本<span class="fs-7 text-danger">(必要)</span></td>
-                        <td data-th="上傳檔案"><img src="./assets/images/ic-none.svg" alt="未上傳" class="table-sign"></td>
-                        <td data-th="下載預覽" class="text-center">
-                            <a class="link-img" href="#">
-                                <img src="./assets/images/ic-download.svg" alt="下載">
-                            </a>
-                        </td>
-                        <td data-th="">
-                            <div class="table-group">
-                                <input class="form-control form-control-sm" id="chooseFile" type="file"
-                                    style="width: auto;">
-                                <label for="chooseFile" class="form-label text-danger fs-7 mb-0 ms-2 py-1">檔案大小不可超過
-                                    10M</label>
-                            </div>
-                        </td>
-                        <td class="text-center" data-th="">
-                            <button class="btn btn-sm btn-danger text-white">刪除</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td data-th="序號" class="text-center">4</td>
-                        <td data-th="文件名稱">役男退伍令或相關證明<span class="fs-7 text-danger">(必要)</span></td>
-                        <td data-th="上傳檔案"></td>
-                        <td data-th="下載預覽" class="text-center"></td>
-                        <td data-th="">
-                            <div class="table-group">
-                                <input class="form-control form-control-sm" id="chooseFile" type="file"
-                                    style="width: auto;">
-                                <label for="chooseFile" class="form-label text-danger fs-7 mb-0 ms-2 py-1">檔案大小不可超過
-                                    10M</label>
-                            </div>
-                        </td>
-                        <td class="text-center" data-th="">
-                            <button class="btn btn-sm btn-danger text-white">刪除</button>
-                        </td>
+                        <td data-th="國家地區">南美洲地區 /巴拉圭</td>
+                        <td data-th="合作單位">巴拉圭醫療資訊管理效能提升計畫(第二期)</td>
+                        <td data-th="服務類別" class="text-center">其他</td>
+                        <td data-th="其他">西班牙語</td>
+                        <td data-th="預定派遣人數" class="text-center">1</td>
                     </tr>
                 </tbody>
             </table>
-            <h4 class="sub-title mb-3"><img src="./assets/images/ic-info.svg" class="me-1">其他附件</h4>
-            <table class="table table-bordered table-hover table-striped table-rwd mb-5" data-action="true">
-                <thead>
-                    <tr>
-                        <th class="text-center" width="60">序號</th>
-                        <th>附件說明</th>
-                        <th class="text-center" width="80">上傳檔案</th>
-                        <th class="text-center" width="80">下載預覽</th>
-                        <th>(檔案名稱長度限50個字元)</th>
-                        <th class="text-center" width="70"><button class="btn btn-sm btn-secondary text-white">新增</button></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td data-th="序號" class="text-center">1</td>
-                        <td data-th="文件名稱"><input class="form-control form-control-sm" type="text" value="個人簡歷" style="max-width: 200px;"></td>
-                        <td data-th="上傳檔案"><img src="./assets/images/ic-checked.svg" alt="已上傳" class="table-sign"></td>
-                        <td data-th="下載預覽" class="text-center">
-                            <a class="link-img" href="#">
-                                <img src="./assets/images/ic-download.svg" alt="下載">
-                            </a>
-                        </td>
-                        <td data-th="">
-                            <div class="table-group">
-                                <input class="form-control form-control-sm" id="chooseFile" type="file"
-                                    style="width: auto;">
-                                <label for="chooseFile" class="form-label text-danger fs-7 mb-0 ms-2 py-1">檔案大小不可超過
-                                    10M</label>
-                            </div>
-                        </td>
-                        <td class="text-center" data-th="">
-                            <button class="btn btn-sm btn-danger text-white">刪除</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+
+            <div class="row gx-2 mb-xl-4 justify-content-center">
+                <div class="col-6 col-md-3 mb-2"><button class="btn btn-gray-400 text-gray-800 w-100">回網站首頁</button></div>
+                <div class="col-6 col-md-3 mb-2">
+                    <button class="btn btn-secondary-dark w-100">報名 <span class="badge rounded-pill text-bg-white text-secondary-dark ms-2">step 1/3</span></button>
+                </div>
+            </div>
         </div>
     </div>
 </main>

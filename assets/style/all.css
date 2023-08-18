@@ -22018,51 +22018,6 @@ body {
       border: 1px solid #F98F18;
       color: #fff !important; }
 
-/*--------------------login開始------------------*/
-.login {
-  border-radius: 12px;
-  overflow: hidden;
-  font-size: 0.9rem;
-  width: 300px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  margin-left: 24px; }
-  @media (max-width: 1200px) {
-    .login {
-      margin-bottom: 16px; } }
-  .login-header {
-    background: #e9ecef;
-    font-size: 0.9rem;
-    color: #343a40;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 8px 0;
-    font-family: 'Noto Serif TC'; }
-  .login-body {
-    background: #fff;
-    padding: 16px; }
-  .login .form-label {
-    width: 64px;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
-    margin-bottom: 0;
-    margin-right: 8px;
-    text-align: right; }
-  .login .form-control::-webkit-input-placeholder {
-    font-size: 0.9rem; }
-  .login .form-control::-moz-placeholder {
-    font-size: 0.9rem; }
-  .login .form-control:-ms-input-placeholder {
-    font-size: 0.9rem; }
-  .login .form-control::-ms-input-placeholder {
-    font-size: 0.9rem; }
-  .login .form-control::placeholder {
-    font-size: 0.9rem; }
-
 /*--------------------footer開始------------------*/
 .footer {
   font-size: 0.8rem;
@@ -22723,12 +22678,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #495057;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
   .sub-title img {
     width: 24px; }
 
@@ -22801,6 +22754,11 @@ body {
       margin-right: 8px; }
 
 /*-----------------表格樣式---------------------*/
+.table a {
+  color: #1A6CBE; }
+  .table a:hover {
+    opacity: 0.8; }
+
 .table-rwd {
   min-width: 100%; }
   .table-rwd thead {
@@ -22871,6 +22829,49 @@ body {
           font-size: 0.9rem;
           margin-bottom: 4px; } }
 
+.table-rwd-horizan {
+  min-width: 100%; }
+  .table-rwd-horizan tr:nth-child(even) td {
+    background: #f8f9fa; }
+  .table-rwd-horizan th {
+    display: table-cell;
+    color: #fff;
+    font-weight: normal;
+    vertical-align: middle;
+    font-size: 0.9rem;
+    background: #70A8D2;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#70A8D2), to(#387eb3));
+    background: -o-linear-gradient(top, #70A8D2 0%, #387eb3 100%);
+    background: linear-gradient(to bottom, #70A8D2 0%, #387eb3 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    opacity: 1; }
+    @media (max-width: 991px) {
+      .table-rwd-horizan th {
+        display: block;
+        width: 100%;
+        padding: 8px 20px; } }
+  .table-rwd-horizan td {
+    font-size: 0.9rem;
+    display: table-cell;
+    vertical-align: middle; }
+    @media (max-width: 991px) {
+      .table-rwd-horizan td {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        text-align: left !important;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border-bottom: 1px solid #BFE1F1;
+        padding: 10px 20px 10px 20px !important;
+        position: relative; } }
+
 .table-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22923,6 +22924,143 @@ body {
       -webkit-box-direction: reverse;
           -ms-flex-direction: column-reverse;
               flex-direction: column-reverse; } }
+
+.index-function {
+  width: 100%;
+  max-width: 300px;
+  margin-left: 24px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (max-width: 1200px) {
+    .index-function {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      max-width: 100%;
+      margin-left: 0; } }
+  @media (max-width: 768px) {
+    .index-function {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+/*--------------------行事曆開始------------------*/
+.calendar {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0 0 8px #ced4da;
+          box-shadow: 0 0 8px #ced4da;
+  border-radius: 12px;
+  pointer-events: none; }
+  @media (max-width: 1200px) {
+    .calendar {
+      width: 320px;
+      margin-right: 16px; } }
+  @media (max-width: 991px) {
+    .calendar {
+      width: 250px; } }
+  @media (max-width: 768px) {
+    .calendar {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 16px;
+      padding: 8px 5% 16px 5%; }
+      .calendar .bootstrap-datetimepicker-widget table td.cw, .calendar .bootstrap-datetimepicker-widget table td.day {
+        height: 20px;
+        line-height: 20px; } }
+  .calendar > * {
+    width: 100%; }
+
+/*--------------------login開始------------------*/
+.login {
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 0.9rem;
+  width: 100%;
+  -webkit-box-shadow: 0 0 8px #ced4da;
+          box-shadow: 0 0 8px #ced4da; }
+  @media (max-width: 576px) {
+    .login {
+      margin-bottom: 16px; } }
+  .login-header {
+    background: #e9ecef;
+    font-size: 0.9rem;
+    color: #343a40;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 8px 0;
+    font-family: 'Noto Serif TC'; }
+  .login-body {
+    background: #fff;
+    padding: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    @media (max-width: 1200px) {
+      .login-body {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
+    @media (max-width: 576px) {
+      .login-body {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+  @media (max-width: 1200px) {
+    .login-info {
+      width: 40%;
+      margin-left: 24px; } }
+  @media (max-width: 991px) {
+    .login-info {
+      display: none; } }
+  .login .form-label {
+    width: 64px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-bottom: 0;
+    margin-right: 8px;
+    text-align: right; }
+  .login .form-control::-webkit-input-placeholder {
+    font-size: 0.9rem; }
+  .login .form-control::-moz-placeholder {
+    font-size: 0.9rem; }
+  .login .form-control:-ms-input-placeholder {
+    font-size: 0.9rem; }
+  .login .form-control::-ms-input-placeholder {
+    font-size: 0.9rem; }
+  .login .form-control::placeholder {
+    font-size: 0.9rem; }
 
 /*--------------------內頁開始------------------*/
 .page-tab {
@@ -23203,9 +23341,9 @@ body {
   background: 0; }
 
 .bootstrap-datetimepicker-widget table th {
-  height: 20px;
-  line-height: 20px;
-  width: 20px;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
   color: #F98F18; }
 
 .bootstrap-datetimepicker-widget table td {
@@ -23245,14 +23383,14 @@ body {
 
 .bootstrap-datetimepicker-widget table td.cw {
   font-size: 0.8em;
-  height: 20px;
-  line-height: 20px;
+  height: 30px;
+  line-height: 30px;
   color: #6c757d; }
 
 .bootstrap-datetimepicker-widget table td.day {
-  height: 20px;
-  line-height: 20px;
-  width: 20px; }
+  height: 30px;
+  line-height: 30px;
+  width: 30px; }
 
 .bootstrap-datetimepicker-widget table td.day:hover,
 .bootstrap-datetimepicker-widget table td.hour:hover,
@@ -23283,7 +23421,7 @@ body {
 .bootstrap-datetimepicker-widget table td.active,
 .bootstrap-datetimepicker-widget table td.active:hover {
   background-color: #F98F18;
-  border-radius: 50%;
+  border-radius: 8px;
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
 
