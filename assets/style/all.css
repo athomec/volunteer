@@ -22826,8 +22826,7 @@ body {
           content: attr(data-th) "：";
           display: inline-block;
           color: #276e91;
-          font-size: 0.9rem;
-          margin-bottom: 4px; } }
+          font-size: 0.9rem; } }
 
 .table-rwd-horizan {
   min-width: 100%; }
